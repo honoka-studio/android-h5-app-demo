@@ -9,7 +9,7 @@ plugins {
 version = libs.versions.p.app.get()
 
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(8)
+    toolchain.languageVersion = JavaLanguageVersion.of(11)
 }
 
 android {
