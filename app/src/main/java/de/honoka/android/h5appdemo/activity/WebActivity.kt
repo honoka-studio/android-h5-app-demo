@@ -1,11 +1,9 @@
 package de.honoka.android.h5appdemo.activity
 
 import de.honoka.android.h5appdemo.jsinterface.TestJsInterface
-import de.honoka.sdk.util.android.ui.AbstractWebActivity
+import de.honoka.sdk.util.android.ui.DefaultWebActivity
 
-class WebActivity : AbstractWebActivity() {
+class WebActivity : DefaultWebActivity() {
 
     override val definedJsInterfaceInstances: List<Any> = listOf(TestJsInterface(this))
-
-    override fun extendedOnResume() {}
 }
