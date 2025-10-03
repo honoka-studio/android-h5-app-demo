@@ -9,7 +9,7 @@ plugins {
 version = libs.versions.p.app.get()
 
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(8)
+    toolchain.languageVersion = JavaLanguageVersion.of(11)
 }
 
 android {
@@ -41,6 +41,16 @@ android {
     }
 }
 
+kotlin {
+    compilerOptions {
+        freeCompilerArgs.addAll("-Xjsr305=strict", "-Xjvm-default=all")
+    }
+}
+
+honoka.basic.dependencies {
+    kotlinAndroid()
+}
+
 //noinspection UseTomlInstead
 dependencies {
     implementation("androidx.core:core-ktx:1.16.0")
@@ -52,8 +62,4 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.3.0")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.7.0")
-}
-
-honoka.basic.dependencies {
-    kotlinAndroid()
 }

@@ -1,4 +1,4 @@
-import androidInterfaceStubUtils from '@honoka/js-utils/src/android/async-interface/support/stub'
+import androidInterfaceStubUtils from '@honoka/js-utils/src/android/async-interface/stub-utils'
 import codeUtils from '@honoka/js-utils/src/basic/code'
 
 //noinspection JSUnusedGlobalSymbols

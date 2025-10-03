@@ -7,14 +7,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@honoka/js-utils": "1.0.1",
     "axios": "^1.6.0",
     "element-plus": "^2.4.1",
     "pinia": "^2.1.7",
     "uuid": "^11.1.0",
     "vant": "^4.7.3",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.5",
-    "@honoka/js-utils": "1.0.0"
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@vant/auto-import-resolver": "^1.0.2",
