@@ -17,6 +17,10 @@ class TestJsInterface(private val webActivity: WebActivity) {
     @AsyncJavascriptInterface
     fun asyncMethodTest(a: Int, b: Int): JSONObject {
         TimeUnit.SECONDS.sleep(3)
-        return JSONObject().set("sum", (a + b).toString())
+        val result = a + b
+        if(result > 100) {
+            error("Bigger than 100: $result")
+        }
+        return JSONObject().set("sum", result.toString())
     }
 }
