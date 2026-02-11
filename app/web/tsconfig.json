@@ -1,9 +1,9 @@
 {
+  "include": ["src"],
   "compilerOptions": {
     "skipLibCheck": true,
     "strict": true
   },
-  "include": ["src/**/*", "declarations/**/*"],
   "vueCompilerOptions": {
     "target": 3,
     "extensions": [".vue"]

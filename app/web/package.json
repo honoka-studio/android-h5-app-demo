@@ -7,7 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@honoka/js-utils": "1.0.2",
+    "@honoka/js-utils": "1.0.3-dev",
     "axios": "^1.6.0",
     "element-plus": "^2.4.1",
     "pinia": "^2.1.7",

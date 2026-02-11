@@ -1,11 +1,11 @@
 package de.honoka.android.h5appdemo.util
 
-import de.honoka.sdk.util.android.basic.AbstractApplicationUtils
-import de.honoka.sdk.util.android.server.HttpServer
+import de.honoka.sdk.util.android.various.AbstractApplicationUtils
+import de.honoka.sdk.util.android.web.server.DefaultHttpServer
 
 object ApplicationUtils : AbstractApplicationUtils() {
 
     override fun initApplication() {
-        HttpServer.start()
+        DefaultHttpServer.start()
     }
 }

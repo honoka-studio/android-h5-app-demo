@@ -1,6 +1,21 @@
 gradle-build/
-.npmrc*
-!.npmrc.honoka
+
+node_modules/
+.DS_Store
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
 
 # Logs
 logs/
@@ -10,23 +25,3 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-node_modules/
-.DS_Store/
-dist/
-dist-ssr/
-coverage/
-*.local
-
-/cypress/videos/
-/cypress/screenshots/
-
-# Editor directories and files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-*.iml

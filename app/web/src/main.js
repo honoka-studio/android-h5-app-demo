@@ -1,14 +1,14 @@
 import '@/assets/main.scss'
 
-import {createApp} from 'vue'
-import {createPinia} from 'pinia'
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
 
 import App from '@/App.vue'
 import router from '@/router'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import 'vant/lib/index.css'
-import eventListenerUtils from '@honoka/js-utils/src/android/event-listener'
+import eventListenerUtils from '@honoka/js-utils/android/event-listener'
 
 eventListenerUtils.exposeToGlobal()
 

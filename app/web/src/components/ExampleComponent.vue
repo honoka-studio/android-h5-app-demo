@@ -30,7 +30,7 @@
 <script setup>
 import androidInterfaces from '@/android-interfaces'
 import messageUtils from '@/utils/message'
-import eventListenerUtils from '@honoka/js-utils/src/android/event-listener'
+import eventListenerUtils from '@honoka/js-utils/android/event-listener'
 import { showToast } from 'vant'
 import { getCurrentInstance, reactive } from 'vue'
 

@@ -1,2 +1,3 @@
 /src/main/assets/web/*
-!/src/main/assets/web/.gitkeep
+
+!**/.gitkeep
